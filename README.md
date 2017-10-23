@@ -1,18 +1,18 @@
-nodejs-base
+meteor-base
 ===========
 
-*Based on https://github.com/mhart/alpine-node*
+*Based on https://github.com/RocketChat/Docker.Base.Image*
 
-nodejs-base image based in alpine-base
+meteor-base image based in alpine-base
 
 To build
 
 ```
-docker build -t <repo>/nodejs-base:<version> .
+docker build -t <repo>/meteor-base:<version> .
 ```
 
 To run:
 
 ```
-docker run -it <repo>/nodejs-base:<version> 
+docker run -it <repo>/meteor-base:<version> 
 ```
